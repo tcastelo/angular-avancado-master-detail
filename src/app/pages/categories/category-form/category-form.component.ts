@@ -36,7 +36,7 @@ export class CategoryFormComponent implements OnInit, AfterContentChecked {
     this.buildCategoryForm();
     this.loadCategory();
   }
-  
+
   ngAfterContentChecked(): void {
     this.setPageTitle();
   }
